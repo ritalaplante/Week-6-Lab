@@ -57,11 +57,14 @@ def calcPerim(a, b):
     perimeter = a + b
     return perimeter
 
-side1 = int(input("Enter a side length: "))
-side2 = int(input("Enter another side length: "))
+def main ():
+    side1 = int(input("Enter a side length: "))
+    side2 = int(input("Enter another side length: "))
 
-perimeter = calcPerim(side1, side2)
-print(perimeter)
+    perimeter = calcPerim(side1, side2)
+    print(perimeter)
+
+main()
 
 # Write a function that reverses a string. Instead of printing the reversed string
 # the function should return the reversed string which is printed in the main
@@ -73,9 +76,12 @@ def reverseString(s):
         reversedString = c + reversedString
     return reversedString
 
-userString = input("Enter a string you would like to reverse: ")
-reversedString = reverseString(userString)
-print(reversedString)
+def main():
+    userString = input("Enter a string you would like to reverse: ")
+    reversedString = reverseString(userString)
+    print(reversedString)
+
+main()
 
 
 
